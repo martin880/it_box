@@ -1,0 +1,17 @@
+[
+   {
+      "id": 1,
+      "task": "Belajar MVC",
+      "status": true
+   },
+   {
+      "id": 2,
+      "task": "Explore OOP",
+      "status": true
+   },
+   {
+      "id": 3,
+      "task": "Minum bersama",
+      "status": false
+   }
+]

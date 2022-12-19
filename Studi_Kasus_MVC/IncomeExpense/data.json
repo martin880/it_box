@@ -1,0 +1,26 @@
+{
+   "incomes": [
+      {
+         "name": "Gaji bulanan",
+         "total": 5000000,
+         "category": "income"
+      },
+      {
+         "name": "Tunjangan Hari Natal",
+         "total": 5000000,
+         "category": "income"
+      }
+   ],
+   "expenses": [
+      {
+         "name": "Bayar listrik",
+         "total": 500000,
+         "category": "expense"
+      },
+      {
+         "name": "Bayar tagihan",
+         "total": 500000,
+         "category": "expense"
+      }
+   ]
+}
