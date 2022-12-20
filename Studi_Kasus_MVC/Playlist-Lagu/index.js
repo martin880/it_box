@@ -3,6 +3,9 @@ const params = process.argv.slice(3);
 const PlaylistController = require('./controllers/PlaylistController');
 
 switch(command){
+    case 'showPlaylist':
+        PlaylistController.show();
+        break;
     case 'add':
         PlaylistController.add(params);
         break;
@@ -11,9 +14,6 @@ switch(command){
         break;
     case 'make':
         PlaylistController.make(params);
-        break;
-    case 'showPlaylist':
-        PlaylistController.show();
         break;
     default:
         console.log("Masukkan command yang benar !!!");
