@@ -1,0 +1,38 @@
+[
+   {
+      "id": 1,
+      "name": "Favourite Music",
+      "songs": [
+         {
+            "id": 1,
+            "name": "Paint my love",
+            "duration": 100,
+            "genre": "Pop"
+         },
+         {
+            "id": 2,
+            "name": "Dear God",
+            "duration": 100,
+            "genre": "Rock"
+         }
+      ]
+   },
+   {
+      "id": 2,
+      "name": "Worship Songs",
+      "songs": [
+         {
+            "id": 1,
+            "name": "Be Gloryfied",
+            "duration": 12,
+            "genre": "Pop"
+         },
+         {
+            "id": 2,
+            "name": "Di Luar Pikiran",
+            "duration": 6,
+            "genre": "Pop"
+         }
+      ]
+   }
+]
