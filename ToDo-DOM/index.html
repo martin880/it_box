@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>To Do Apps</h2>
+            <hr/>
+        </div>
+        <div class="body_todo">
+            <div class="input_body">
+                <input type="text" id="task_form" placeholder="Masukkan Tugas . . .">
+                <button id="btn_click">+ Tambah Tugas</button>
+            </div>
+            <div class="table_body">
+                <table border="1" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Tugas</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id ="tBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

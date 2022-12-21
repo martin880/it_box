@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 16px auto;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.header{
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color:tomato;
+}
+
+.body_todo{
+    width: 100%;
+    margin: auto;
+}
+
+.input_body{
+    width: 100%;
+    margin-bottom: 6px;
+}
+.input_body input {
+    width: 70%;
+    padding: 18px;
+    margin-bottom: 6px;
+}
+
+.input_body button{
+    width: 40%;
+    color: white;
+    padding: 0.5rem;
+    background-color: blueviolet;
+}
+
+.input_body button:hover{
+    color: blueviolet;
+    background-color: white;
+    cursor: pointer;
+}
+
+.table_body{
+    width: 100%;
+    position: inherit;
+    margin-bottom: 4px;
+}
+
+table {
+    width: 100%;
+}
+th,td{
+    padding: 6px;
+}
+
+th{
+    background-color: aqua;
+}
+
