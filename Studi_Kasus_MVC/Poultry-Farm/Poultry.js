@@ -1,3 +1,5 @@
+// Parent class
+
 class Poultry{
     constructor(id, category, price){
         this.id = id;
@@ -6,6 +8,7 @@ class Poultry{
     }
 }
 
+// Child class
 class Chicken extends Poultry {
     constructor(id, price, isMature) {
         super(id, "chicken", price);   
