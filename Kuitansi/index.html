@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuitansi Cetak</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-item">
+            <div class="header">
+                <h1>Kuitansi Cetak</h1>
+            </div>
+            <hr>
+            <div class="form-box">
+                <div class="form-item">
+                    <label for="">Nama</label>
+                    <input id="nama" type="text" placeholder="Masukkan nama anda.">
+                </div>
+                <div class="form-item">
+                    <label for="">Barang</label>
+                    <input id="barang" type="text" placeholder="Masukkan nama barang.">
+                </div>
+                <div class="form-item">
+                    <label for="">Harga</label>
+                    <input id="harga" type="text" placeholder="Harga barang.">
+                </div>
+                <div class="form-item">
+                    <button id="btnSubmit">Submit</button>
+                </div>
+            </div>
+            <hr>
+            <div class="cart-box">
+                <div class="cart-header">
+                    <h3>Carts</h3>
+                    <span id="namaCart"></span>
+                </div>
+                <div class="cart-table">
+                    <table border="1" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Barang</th>
+                                <th>Harga</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tBody">
+                            <!-- <tr>
+                                <td>1</td>
+                                <td>Laptop</td>
+                                <td>USD 10000</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="submit-print">
+                <button id = "btnPrint">Cetak</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
